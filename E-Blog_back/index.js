@@ -1,0 +1,24 @@
+import express from "express";
+import dotenv from "dotenv";
+import cors from "cors";
+import connectDB from "./db/connection.js";
+import routes from "./routes/route.js";
+
+const app = express()
+
+dotenv.config({ quiet: true });
+
+app.use(cors());
+app.use(express.urlencoded({ limit: '10mb' }))
+app.use(express.json({ limit: '10mb' }));
+
+// Serve static files from uploads directory
+app.use('/uploads', express.static('uploads'));
+
+connectDB(process.env.MONGODB_URL || 'mongodb://localhost:27017/eblog');
+
+app.use('/', routes);
+
+app.listen(process.env.PORT || 4000, () => {
+    console.log(`Server started successfully at http://localhost:${process.env.PORT || 4000}`)
+})

@@ -1,0 +1,27 @@
+.logo-transition {
+  animation: logoScale 1s ease-in-out;
+}
+
+@keyframes logoScale {
+  0% {
+    transform: scale(1) translateX(300);
+  }
+  50% {
+    transform: scale(1.7) translateX(300);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Dark mode styles */
+.dark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+  color: rgb(243 244 246 / var(--tw-text-opacity));
+}
+
+.dark body {
+  background-color: rgb(17 24 39);
+  color: rgb(243 244 246);
+}
