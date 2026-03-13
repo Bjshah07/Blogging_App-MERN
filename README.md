@@ -134,46 +134,26 @@ Static files: `/uploads/*`
 ## 📱 Screenshots
 
 Add screenshots here:
-- Landing page
-- Blog listing
-- Blog post view
-- Create blog (TinyMCE)
-- Admin dashboard
-- Mobile view
+- ### Landing page
+  <img width="560" height="350" alt="Screenshot 2026-03-13 115234" src="https://github.com/user-attachments/assets/cb1b9961-7d30-43a1-b4ea-f7811cb7c5a2" />
+- ### Blog listing
+  <img width="560" height="350" alt="Screenshot 2026-03-13 120319" src="https://github.com/user-attachments/assets/59a1b93b-7092-4170-8a8d-4c32f91a2158" />
+- ### Blog post view
+  <img width="560" height="350" alt="Screenshot 2026-03-13 120428" src="https://github.com/user-attachments/assets/3b6ee4d9-6a1b-4a4b-8fab-0dab3462f5ed" />
+- ### Create blog (TinyMCE)
+  <img width="560" height="350" alt="Screenshot 2026-03-13 120507" src="https://github.com/user-attachments/assets/be4895e0-5845-45d5-9b3d-d8796c002e51" />
+- ### Admin dashboard
+  - Main Dashboard
+   <br><img width="560" height="350" alt="Screenshot 2026-03-13 120852" src="https://github.com/user-attachments/assets/0ea086b6-0d24-4420-87c1-2a2c9eba3f5e" />
+  - User Panel
+    <br><img width="560" height="350" alt="Screenshot 2026-03-13 120922" src="https://github.com/user-attachments/assets/85b65ed0-4c7a-481e-9ccd-491f9e351b45" />
+  - Blog Panel
+    <br><img width="560" height="350" alt="Screenshot 2026-03-13 120937" src="https://github.com/user-attachments/assets/3eb87f03-3185-4eec-84d4-359ffaa8ad79" />
+  - Comments Panel
+    <br><img width="560" height="350" alt="Screenshot 2026-03-13 120947" src="https://github.com/user-attachments/assets/e462f80e-11a8-44c0-a432-6dbcafa6f1a7" />
 
-## 🚀 Deployment
 
-### Backend (Render/Heroku/Railway)
-1. Push to GitHub
-2. Deploy Node.js app
-3. Set env vars (MONGODB_URL, JWT_SECRET)
-4. Update frontend API URLs
 
-### Frontend (Vercel/Netlify)
-```bash
-npm run build
-# Deploy dist/ folder
-```
 
-### MongoDB
-Use MongoDB Atlas for production (free tier available)
+  
 
-## 🤝 Contributing
-
-1. Fork the repo
-2. Create feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Open Pull Request
-
-## 📄 License
-
-This project is MIT licensed. See [LICENSE](LICENSE) for details.
-
-## 🙏 Acknowledgments
-
-Built with ❤️ using modern web technologies. Stars ⭐ appreciated!
-
----
-
-**Made with [React](https://reactjs.org) + [Node.js](https://nodejs.org) + [MongoDB](https://mongodb.com)**
